@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 path_wetherspoon = './wetherspoon_' + date.today().strftime("%b-%d-%Y")
-#os.mkdir(path_wetherspoon)
+os.mkdir(path_wetherspoon)
 
 
 def wetherspoonCrawler(pub_id):
